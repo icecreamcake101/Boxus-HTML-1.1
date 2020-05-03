@@ -259,7 +259,7 @@ body a:hover
 {
     padding-bottom: 170px;
     min-height: calc(100vh - 170px);
-    background-color: #fff; 
+    background-color: #221c5a; 
     background-image:url(demo-images/hero-bg.jpg); 
     background-repeat: repeat; 
     background-position: center top; 
@@ -280,7 +280,7 @@ h1.big-title
     font-weight: 700;
     line-height: 100%;
     padding-top: 100px;
-    color: #EC1E7F;
+    color: white;
     letter-spacing: -1px;    
     width: 95%;
     margin-left: auto;
