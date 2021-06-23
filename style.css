@@ -1,6 +1,6 @@
 body
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
@@ -169,16 +169,16 @@ body a:hover
 .section-title-holder h2
 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 659;
-    font-size: 41px;
+    font-weight: 657;
+    font-size: 33.2px;
     width: 366px;
     word-break: break-all;
-    line-height: 83px;
+    line-height: 20px;
     margin-top: 5px;
     color: white;
-    margin-left: 10px;
+    margin-left: 8px;
     text-transform: uppercase;
-    letter-spacing: -3px;
+    letter-spacing: -4px;
     padding: 0;
 }
 
@@ -213,6 +213,47 @@ body a:hover
 }
 
 .section-content-holder .content-title
+{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-align: center;
+    font-size: 180px;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-top: -75px;
+    color: #221c5a;    
+}
+.sections-content-holder
+{   
+    background: #221c5a;
+    width: 800px;
+    padding: 60px 0;
+}
+
+.sections-content-holder .content-wrapper
+{
+    padding: 0 60px;
+}
+
+.sections-content-holder.right
+{
+    margin-left: 370px;
+}
+
+.sections-content-holder.left
+{
+    margin-top: 370px;
+}
+
+.sections-content-holder .content-title-holder
+{
+    overflow: hidden;
+    height: 100px;
+    margin-top: -60px;
+    padding-bottom: 50px;
+}
+
+.sections-content-holder .content-title
 {
     font-family: 'Montserrat';
     font-weight: 700;
@@ -260,7 +301,7 @@ body a:hover
     padding-bottom: 170px;
     min-height: calc(100vh - 170px);
     background-color: #221c5a; 
-    background-image:url(demo-images/hero-bg.png); 
+    background-image:url(demo-images/bg4.jpg); 
     background-repeat: repeat; 
     background-position: center top; 
     background-size: cover;
@@ -318,7 +359,7 @@ h1.big-title
 #services
 {
     background-color: #221C5A; 
-    background-image: url("demo-images/8.jpg"); 
+   
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: cover;
@@ -327,12 +368,12 @@ h1.big-title
 
 #services .section-title-holder
 {
-    background-color: #32DB8A
+    background-color: #e64b77;
 }
 
 #services .section-title-holder span
 {
-    color: #55B286;
+    color: #b24564;
 }
 
 .service-holder 
@@ -364,7 +405,57 @@ h1.big-title
 }
 
 /* END SERVICE SECTION */
+/* Team SECTION */
 
+#team
+{
+    background-color: #221C5A; 
+   
+    background-repeat: no-repeat; 
+    background-position: center top; 
+    background-size: cover;
+    z-index: 9;
+}
+
+#team .section-title-holder
+{
+    background-color: #32db89;
+}
+
+#team .section-title-holder span
+{
+    color: #26b871;
+}
+
+.team-holder 
+{
+    display: inline-block;
+    width: 335px;
+}
+
+.team-holder img 
+{
+    display: inline-block;
+    width: 50px !important;
+    vertical-align: top;
+}
+
+.team-content-holder 
+{
+    display: inline-block;
+    width: 240px;
+    margin-top: 55px;
+    margin-left: 5px;
+}
+
+.team-title 
+{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+/* END teamSECTION */
 
 
 /* PORTFOLIO SECTION */
@@ -578,12 +669,12 @@ div.pp_default .pp_loaderIcon
 
 #about .section-title-holder
 {
-    background-color: #e64b77;
+    background-color: rgb(255, 186, 66);
 }
 
 #about .section-title-holder span
 {
-    color: #b24564;
+    color: #e3a436;
 }
 
 #about .section-content-holder
@@ -819,6 +910,186 @@ div.pp_default .pp_loaderIcon
 }
 
 /* END ABOUT SECTION */
+/* video1 SECTION */
+
+#video1
+{
+    background-color: rgb(34, 28, 90);  
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover; 
+    z-index: 6;
+}
+
+.blog-item-holder
+{    
+    padding: 35px 0;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.blog-item-holder:last-of-type 
+{
+    border: none;
+}
+
+.blog-item-holder .num 
+{
+    display: inline-block;
+    width: 110px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #32db89;
+}
+
+.blog-item-holder .info 
+{
+    display: inline-block;
+    width: 235px;
+}
+
+.blog-item-holder .info .cat-links a 
+{
+    color: #ee87a4;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.blog-item-holder .entry-title 
+{
+    display: inline-block;
+    width: 325px;
+    padding: 0;
+    vertical-align: top;
+    line-height: 0;
+}
+
+.blog-holder .entry-title a
+{    
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 700;
+    display: block;
+    line-height: 20px;
+}
+
+.latest-post-bottom-text
+{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.latest-post-bottom-text a 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;    
+    font-size: 16px;
+    line-height: 100%;    
+    color: #32db89;
+    letter-spacing: 5px;
+    border-bottom: 2px solid;
+    padding-left: 5px;
+    padding-bottom: 5px; 
+}
+
+.testimonial-slider-holder
+{
+    max-width: 500px;
+    padding-left: 50px;
+}
+
+.testimonial-text
+{
+    font-size: 22px;
+    line-height: 40px;    
+}
+
+.testimonial-author
+{
+    padding-top: 90px;
+    font-size: 16px;
+    letter-spacing: 3px;    
+}
+
+/* END NEWS SECTION */
+
+#video2
+{
+    background-color: rgb(34, 28, 90); 
+    background-image: url("demo-images/bg1.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover; 
+    z-index: 7;
+}
+
+#video2 .section-title-holder
+{
+    background-color: #e64b77;
+}
+
+#video2 .section-title-holder span
+{
+    color: #b24564;
+}
+
+#video2 .section-content-holder
+{
+    padding-bottom: 0;
+}
+
+.member-content-holder 
+{
+    width: 330px;
+    padding: 90px 50px 50px 50px;
+    float: left;
+}
+
+.member-image-holder 
+{
+    width: 370px;
+    float: right;
+}
+
+.member-image-holder img
+{
+    width: 100% !important;
+}
+
+.member-name
+{
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+}
+
+.member-position
+{
+    line-height: 16px;
+    font-size: 14px;
+    padding-bottom: 50px;
+    color: #ee87a4;
+    letter-spacing: 4px;
+}
+
+.member-content
+{
+    line-height: 26px;    
+}
+
+.image-slider-wrapper.img .image-slider li img
+{
+    width: 100%;
+}
+
+/* END ABOUT SECTION */
+
 
 
 /* NEWS SECTION */
@@ -826,7 +1097,7 @@ div.pp_default .pp_loaderIcon
 #nws
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/4.jpg"); 
+    background-image: url("demo-images/bg2.jpg"); 
     background-repeat: no-repeat; 
     background-position: center center; 
     background-size: cover; 
@@ -935,7 +1206,7 @@ div.pp_default .pp_loaderIcon
 #video
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/5.jpg"); 
+    
     background-repeat: repeat-x; 
     background-position: center center; 
     background-size: cover; 
@@ -1073,7 +1344,7 @@ a.video-popup-holder:hover img.popup-play
 #contact
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/6.png"); 
+    background-image: url("demo-images/bg2.jpg"); 
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: cover; 
@@ -1082,12 +1353,12 @@ a.video-popup-holder:hover img.popup-play
 
 #contact .section-title-holder
 {
-    background-color: rgb(230, 75, 119);
+    background-color: rgb(255, 186, 66);
 }
 
 #contact .section-title-holder span
 {
-    color: #b24564;
+    color: #e3a436;
 }
 
 #contact .section-content-holder
@@ -1190,7 +1461,7 @@ p.custom-field-class
     -ms-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
-    padding-top: 13px;
+    padding-top: 5px;
     overflow: hidden;
     padding-bottom: 5px;
 }

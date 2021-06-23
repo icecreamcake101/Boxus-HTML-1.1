@@ -1757,8 +1757,8 @@ Item.prototype.moveTo = supportsCSS3 ?
   Item.prototype._transitionTo : Item.prototype.goTo;
 
 Item.prototype.setPosition = function( x, y ) {
-  this.position.x = parseInt( x, 10 );
-  this.position.y = parseInt( y, 10 );
+  this.position.x = parseInt( x,10);
+  this.position.y = parseInt( y,10);
 };
 
 // ----- transition ----- //
