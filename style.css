@@ -410,7 +410,7 @@ h1.big-title
 #team
 {
     background-color: #221C5A; 
-   
+    background-image: url("demo-images/bg2.jpg"); 
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: cover;
@@ -660,7 +660,7 @@ div.pp_default .pp_loaderIcon
 #about
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/1.jpg"); 
+    background-image: url("demo-images/bg2.jpg"); 
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: cover; 
@@ -842,9 +842,9 @@ div.pp_default .pp_loaderIcon
 #abt
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/3.jpg"); 
+    background-image: url("demo-images/bg1.jpg"); 
     background-repeat: no-repeat; 
-    background-position: center top; 
+    background-position: center center; 
     background-size: cover; 
     z-index: 7;
 }
@@ -1344,7 +1344,7 @@ a.video-popup-holder:hover img.popup-play
 #contact
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/bg2.jpg"); 
+    
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: cover; 
