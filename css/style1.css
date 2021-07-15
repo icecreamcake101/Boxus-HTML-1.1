@@ -80,6 +80,7 @@ body {
 }
 .notfound h3 {
   font-family: 'Maven Pro', sans-serif;
+  
   font-size: 22px;
   line-height: 15px;
   color: rgb(255, 255, 255);
@@ -88,12 +89,14 @@ body {
   margin: 0px;}
 
 .notfound p {
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 16px;
-  
-  color: #000;
-  font-weight: bold;
-  
+  font-family: 'Proxima Nova';
+  line-height: 20px;
+  font-size: 22px;
+  font-style: italic;
+  text-transform:none;
+  color: rgb(255, 255, 255);
+  text-align: end;
+  font-weight: 400;
   margin-top: 15px;
 }
 

@@ -405,6 +405,57 @@ h1.big-title
 }
 
 /* END SERVICE SECTION */
+/* SERVICE1 SECTION */
+
+#services1
+{
+    background-color: #221C5A; 
+   
+    background-repeat: no-repeat; 
+    background-position: center top; 
+    background-size: cover;
+    z-index: 9;
+}
+
+#services1 .section-title-holder
+{
+    background-color: #32db89;
+}
+
+#services1 .section-title-holder span
+{
+    color: #26b871;
+}
+
+.service1-holder 
+{
+    display: inline-block;
+    width: 335px;
+}
+
+.service1-holder img 
+{
+    display: inline-block;
+    width: 50px !important;
+    vertical-align: top;
+}
+
+.service1-content-holder 
+{
+    display: inline-block;
+    width: 240px;
+    margin-top: 55px;
+    margin-left: 5px;
+}
+
+.service1-title 
+{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+/* END SERVICE 1SECTION */
 /* Team SECTION */
 
 #team
@@ -919,6 +970,15 @@ div.pp_default .pp_loaderIcon
     background-position: center center; 
     background-size: cover; 
     z-index: 6;
+}
+#video1 .section-title-holder
+{
+    background-color: #e64b77;
+}
+
+#video1 .section-title-holder span
+{
+    color: #b24564;
 }
 
 .blog-item-holder
